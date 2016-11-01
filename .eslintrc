@@ -1,0 +1,10 @@
+{
+    "extends": [
+    	"jr"
+    ],
+    "rules": {
+    },
+    "globals": {
+        "require": true,
+    }
+}

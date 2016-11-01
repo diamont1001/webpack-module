@@ -1,2 +1,17 @@
-# webpack-module
-基于webpack开发的模块原型，包含npm包开发和发布教程
+# 基于webpack的前端模块开发 #
+
+## 编译运行 ##
+
+```bash
+npm install
+npm run lint
+npm test
+npm run dist
+```
+
+## npm模块发布流程 ##
+
+```bash
+npm init
+npm publish
+```

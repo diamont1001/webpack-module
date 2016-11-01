@@ -1,0 +1,42 @@
+{
+  "name": "webpack-module-demo",
+  "version": "1.0.0",
+  "description": "webpack module demo",
+  "main": "src/main.js",
+  "scripts": {
+    "lint": "eslint src/*.js",
+    "test": "karma start",
+    "dist": "webpack -p"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "webpack",
+    "module"
+  ],
+  "author": "diamont1001",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "chai": "^3.5.0",
+    "eslint": "^3.3.0",
+    "eslint-config-jr": "^1.0.3",
+    "karma": "<1.0.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.2.0",
+    "karma-mocha-reporter": "^2.2.0",
+    "karma-power-assert": "0.0.4",
+    "karma-webpack": "^1.8.0",
+    "mocha": "^3.1.0",
+    "power-assert": "^1.4.1",
+    "webpack": "^1.13.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
+}
