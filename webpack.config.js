@@ -2,7 +2,7 @@
 
 module.exports = {
     entry: {
-        utils: './src/main.js'
+        bundle: './src/main.js'
     },
     output: {
         path: './dist',
