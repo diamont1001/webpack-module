@@ -7,7 +7,8 @@ module.exports = {
     output: {
         path: './dist',
         filename: '[name].js',
-        libraryTarget: 'umd' // 组件采用UMD格式打包
+        libraryTarget: 'umd', // 组件采用UMD格式打包
+        library: 'Demo' // 打包后模板对象名
     },
 
     module: {
